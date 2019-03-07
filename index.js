@@ -27,6 +27,6 @@ function iLoveTheBeatles(number){
   var x = []
   do {
     x[0] = "I love the Beatls!""
-    
+
   } while (number)
 }
