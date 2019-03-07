@@ -17,11 +17,11 @@ function theBeatlesPlay(musicians, instruments){
 
 
 function iLoveTheBeatles(number){
-  var x = [];
+  var x = []
   do {
     // x[number] = "I love the Beatles!"
-    x.push("I love the Beatles!");
-    number++;
-  } while (number<15);
-  return x;
+    x[number] = "I love the Beatles!"
+    number++
+  } while (number<15)
+  return x
 }
