@@ -1,11 +1,11 @@
-// // add solution here
-// function theBeatlesPlay(musician, instrument){
-//   var musician_instrument = []
-//   for( var i = 0, i < musician.length, i++ ){
-//     musician_instrument[i] = musician[i] + " plays " + instrument[i]
-//   }
-//   return musician_instrument
-// }
+// add solution here
+function theBeatlesPlay(musician, instrument){
+  var musician_instrument = []
+  for( var i = 0, i < musician.length, i++ ){
+    musician_instrument[i] = musician[i] + " plays " + instrument[i]
+  }
+  return musician_instrument
+}
 
 const facts = [
   "He was the last Beatle to learn to drive",
@@ -23,6 +23,10 @@ function johnLennonFacts(facts){
   return facts
 }
 
-function iLoveTheBeatles(){
-
+function iLoveTheBeatles(number){
+  var x = []
+  do {
+    x[0] = "I love the Beatls!""
+    
+  } while (number)
 }
