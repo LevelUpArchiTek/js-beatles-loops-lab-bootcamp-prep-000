@@ -1,11 +1,11 @@
 // add solution here
 function theBeatlesPlay(musician, instrument){
-  var musician_instrument = []
+  var musician_instrument = [];
   for( var i = 0, i < musician.length, i++ ){
     // musician_instrument[i] = musician[i] + " plays " + instrument[i]
-    musician_instrument.push(musician[i] + " plays " + instrument[i])
+    musician_instrument.push(musician[i] + " plays " + instrument[i]);
   }
-  return musician_instrument
+  return musician_instrument;
 }
 
 // const facts = [
@@ -21,23 +21,23 @@ function johnLennonFacts(facts){
     "He was never a vegetarian",
     "He was a choir boy and boy scout",
     "He hated the sound of his own voice"
-  ]
-  var newFacts = []
-  var i = 0
+  ];
+  var newFacts = [];
+  var i = 0;
   While (i<facts.length){
     // facts[i] = fact[i] + "!!!"
-    newFacts.push(facts[i] + "!!!")
-    i++
+    newFacts.push(facts[i] + "!!!");
+    i++;
   }
-  return newFacts
+  return newFacts;
 }
 
 function iLoveTheBeatles(number){
-  var x = []
+  var x = [];
   do {
     // x[number] = "I love the Beatles!"
-    x.push("I love the Beatles!")
-    number++
-  } while (number<15)
-  return x
+    x.push("I love the Beatles!");
+    number++;
+  } while (number<15);
+  return x;
 }
