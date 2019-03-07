@@ -22,6 +22,6 @@ function iLoveTheBeatles(number){
     // x[number] = "I love the Beatles!"
     number++
     x[number] = "I love the Beatles!"
-  } while (number<15)
+  } while (number<14)
   return x
 }
