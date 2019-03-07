@@ -18,6 +18,7 @@ function johnLennonFacts(facts){
   var i = 0
   While (facts[i]){
     facts[i] = fact[i] + "!!!"
+    i++
   }
   return facts
 }
